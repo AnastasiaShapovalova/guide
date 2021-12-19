@@ -1,12 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { TopBar } from './components/TopBar';
+import { ProjectCommonSettings } from './pages/ProjectCommonSettings';
 
 export const App = () => {
-  return (
-    <div className="App">
-      <TopBar />
-    </div>
-  );
+  return <ProjectCommonSettings />;
 };
