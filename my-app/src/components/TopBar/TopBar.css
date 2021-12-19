@@ -1,0 +1,19 @@
+.container {
+  background-color: rgb(25, 0, 168);
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login {
+  color: cornsilk;
+}
+.logo {
+  font-weight: 600;
+  padding: 4px 8px;
+  border: solid 2px cornsilk;
+  border-radius: 8px 8px 0px 8px;
+  font-size: 18px;
+  color: #96cdf1;
+}
